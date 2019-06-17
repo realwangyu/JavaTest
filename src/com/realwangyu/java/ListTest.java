@@ -29,6 +29,8 @@ public class ListTest {
     double d;
     
     int i1;
+    
+    int i2;
 
     /**
      * @Description    note
