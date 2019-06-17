@@ -25,6 +25,8 @@ import java.util.List;
 public class ListTest {
     
     int i;
+    
+    double d;
 
     /**
      * @Description    note
