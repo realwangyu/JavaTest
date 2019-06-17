@@ -30,6 +30,8 @@ public class TestObj {
     private double d;
 	
 	private float f;
+	
+	private float f1;
 
     /**
      * @return the i
