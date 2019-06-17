@@ -34,6 +34,8 @@ public class TestObj {
 	private float f1;
 	
 	private float f2;
+	
+	int i1;
 
     /**
      * @return the i
