@@ -23,6 +23,10 @@ import java.util.List;
  * @CreateDate     May 31, 2019 2:36:46 PM
  */
 public class ListTest {
+    
+    int i;
+    
+    double d;
 
     /**
      * @Description    note
