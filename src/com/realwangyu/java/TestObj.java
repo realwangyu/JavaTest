@@ -24,6 +24,8 @@ public class TestObj {
     private int i;
     
     private String s;
+    
+    private char c;
 
     /**
      * @return the i
