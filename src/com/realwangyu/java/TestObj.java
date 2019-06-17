@@ -28,6 +28,8 @@ public class TestObj {
     private char c;
     
     private double d;
+	
+	private float f;
 
     /**
      * @return the i
