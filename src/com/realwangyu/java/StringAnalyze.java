@@ -35,7 +35,7 @@ public class StringAnalyze {
         // 2.获取目标配置及之后的字符串
         String subConfigString = config.substring(pos);
         // 3.去除目标配配置的开头和结尾的逗号
-        subConfigString = subConfigString.substring(2, subConfigString.length() - 1);
+        subConfigString = subConfigString.substring(2, subConfigString.indexOf(","));
         // 拆分成一个个单独配置
         String[] confiStrings = subConfigString.split("\\^");
         // 判断
