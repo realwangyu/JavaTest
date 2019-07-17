@@ -22,6 +22,28 @@ package com.realwangyu.java;
 @FunctionalInterface
 public interface Trans<T, R> {
 
+    /**
+     * @Description    转换的抽象方法
+     * @Author         wangyu08334
+     * @CreateDate     Jul 16, 2019 5:41:23 PM
+     * @param param
+     * @return
+     */
     public T trans(R param);
+    
+    /*
+     * @Description    可以定义有默认实现的方法
+     */
+    default void doSth() {
+        return;
+    }
+
+    /* 
+     * 可以定义java.lang.Object里的public方法
+     */
+    @Override
+    boolean equals(Object obj);
+    
+    
     
 }
